@@ -1,12 +1,14 @@
 name: Contexts
+
 on: push
+
 jobs:
   print:
     runs-on: ubuntu-latest
     steps:
       - run: echo "${{ github.actor }}"
       - name: GitHub Context
-        run:
+        run: |
           echo "Repository: ${{ github.repository }}"
           echo "Actor: ${{ github.actor }}"
           echo "Event: ${{ github.event_name }}"
