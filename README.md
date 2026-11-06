@@ -1,4 +1,4 @@
 # Git Practice
 
-name : Dong Bin Choi
-number : 1234565
+Name: sungjae
+Student ID : 32213186
